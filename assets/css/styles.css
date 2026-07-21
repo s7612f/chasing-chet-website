@@ -46,6 +46,7 @@ img {
   max-width: 100%;
   display: block;
   height: auto;
+  filter: grayscale(1) contrast(1.04);
 }
 
 a {
@@ -497,7 +498,7 @@ a strong {
 
 .city:hover .city__img img {
   transform: scale(1.03);
-  filter: grayscale(0.35) brightness(0.9) contrast(1.05);
+  filter: grayscale(1) brightness(0.9) contrast(1.05);
 }
 
 .city__body {
@@ -573,7 +574,7 @@ a strong {
 }
 
 .voice:hover .voice__photo img {
-  filter: grayscale(0.35) contrast(1.04);
+  filter: grayscale(1) contrast(1.08);
   transition: filter 0.35s ease;
 }
 
@@ -689,7 +690,7 @@ a strong {
 
 .counterpart__poster img {
   width: 100%;
-  filter: grayscale(0.15);
+  filter: grayscale(1) contrast(1.04);
 }
 
 /* ----- Video ----- */
