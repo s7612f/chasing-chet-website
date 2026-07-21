@@ -552,20 +552,22 @@ a strong {
 }
 
 .voice__photo {
-  flex: 0 0 4.5rem;
-  width: 4.5rem;
-  height: 4.5rem;
+  flex: 0 0 5.25rem;
+  width: 5.25rem;
+  height: 5.25rem;
   background: #000;
   overflow: hidden;
   border: 1px solid var(--line);
+  flex-shrink: 0;
 }
 
 .voice__photo img {
-  width: 100%;
-  height: 100%;
+  width: 5.25rem;
+  height: 5.25rem;
+  max-width: none;
   object-fit: cover;
-  object-position: center top;
-  filter: grayscale(1) contrast(1.04);
+  object-position: center 20%;
+  filter: grayscale(1) contrast(1.05);
   display: block;
 }
 
@@ -702,6 +704,49 @@ a strong {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-mute);
+}
+
+/* Performance link as full-width banner under the three stills */
+.music-banner {
+  display: block;
+  margin-top: 1.75rem;
+  padding: 1.35rem 1.4rem 1.45rem;
+  border: 1px solid var(--line-strong);
+  background: var(--bg);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.music-banner:hover {
+  border-color: var(--accent);
+  background: var(--bg-soft);
+  color: inherit;
+}
+
+.music-banner__kicker {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--ink-mute);
+  margin-bottom: 0.4rem;
+}
+
+.music-banner__title {
+  display: block;
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 2.4vw, 1.55rem);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+.music-banner__meta {
+  display: block;
+  margin-top: 0.45rem;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink-dim);
 }
 
 /* ----- Credits table ----- */
