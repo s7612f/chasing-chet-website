@@ -498,7 +498,7 @@ a strong {
 
 .city:hover .city__img img {
   transform: scale(1.03);
-  filter: grayscale(1) brightness(0.9) contrast(1.05);
+  filter: grayscale(0.25) brightness(0.95) contrast(1.05);
 }
 
 .city__body {
@@ -574,8 +574,7 @@ a strong {
 }
 
 .voice:hover .voice__photo img {
-  filter: grayscale(1) contrast(1.08);
-  transition: filter 0.35s ease;
+  filter: grayscale(1) contrast(1.04);
 }
 
 .voice__text {
