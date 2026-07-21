@@ -435,32 +435,6 @@ a:hover {
   }
 }
 
-.voice {
-  background: var(--bg);
-  padding: 1.5rem 1.4rem 1.6rem;
-}
-
-.voice h3 {
-  margin: 0 0 0.35rem;
-  font-family: var(--serif);
-  font-size: 1.45rem;
-  font-weight: 500;
-}
-
-.voice__role {
-  margin: 0 0 0.85rem;
-  font-size: 0.72rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--accent);
-}
-
-.voice p {
-  margin: 0;
-  color: var(--ink-dim);
-  font-size: 0.95rem;
-}
-
 /* ----- Film strip / gallery ----- */
 
 .gallery {
@@ -746,6 +720,26 @@ a:hover {
 
 .voice h3 {
   margin: 0 0 0.3rem;
+  color: #f7f4ec;
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.voice__role {
+  margin: 0 0 0.6rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.voice__text p {
+  margin: 0;
+  color: #8a857c;
+  font-size: 0.95rem;
+  line-height: 1.55;
 }
 
 /* ----- Music stills row ----- */
