@@ -547,29 +547,25 @@ a strong {
 
 .voice {
   background: var(--bg);
-  padding: 0;
-  display: grid;
-  grid-template-columns: 7.5rem 1fr;
-  gap: 0;
-  min-height: 100%;
-}
-
-@media (min-width: 600px) {
-  .voice {
-    grid-template-columns: 9rem 1fr;
-  }
+  padding: 1.35rem 1.35rem 1.5rem;
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  min-height: 0;
 }
 
 .voice__photo {
+  flex: 0 0 3rem;
+  width: 3rem;
+  height: 3rem;
   background: #000;
   overflow: hidden;
-  border-right: 1px solid var(--line);
+  border: 1px solid var(--line);
 }
 
 .voice__photo img {
   width: 100%;
   height: 100%;
-  min-height: 7.5rem;
   object-fit: cover;
   object-position: center top;
   filter: grayscale(1) contrast(1.04);
@@ -582,22 +578,25 @@ a strong {
 }
 
 .voice__text {
-  padding: 1.15rem 1.2rem 1.35rem;
+  flex: 1;
+  min-width: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .voice h3 {
-  margin: 0 0 0.35rem;
+  margin: 0 0 0.3rem;
   font-family: var(--serif);
-  font-size: 1.45rem;
+  font-size: 1.35rem;
   font-weight: 500;
+  line-height: 1.15;
 }
 
 .voice__role {
-  margin: 0 0 0.75rem;
-  font-size: 0.72rem;
+  margin: 0 0 0.55rem;
+  font-size: 0.7rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -606,7 +605,8 @@ a strong {
 .voice__text p:last-child {
   margin: 0;
   color: var(--ink-dim);
-  font-size: 0.95rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 
 /* ----- Film strip / gallery ----- */
