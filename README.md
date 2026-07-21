@@ -23,6 +23,20 @@ Open http://localhost:8765
 
 Plain HTML, CSS, a few lines of JS for nav. Google Fonts: Cormorant Garamond + IBM Plex Sans.
 
+## SEO / head
+
+- Canonical, robots, Open Graph, Twitter cards
+- JSON-LD (`Movie`, `Organization`, `WebSite`, `WebPage`)
+- Favicon set + `site.webmanifest`
+- `robots.txt` + `sitemap.xml`
+- OG image: `assets/images/og-cover.jpg`
+
+When the public domain is live (e.g. `chasingchet.com`), update canonical, OG URLs, sitemap, and robots to match.
+
+## Contact
+
+No inquiry form. Mailto only: `robin@repmusic.co.uk`. Later: link to trailer / screening page when it exists.
+
 ## Status
 
 Working mockup for crew review. Confirm with Robin before any public domain, DNS, or press use.
