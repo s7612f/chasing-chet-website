@@ -1,0 +1,12 @@
+# Local trial / scrap images
+assets/images/voices/*-try*
+assets/images/voices/*-cand*
+assets/images/voices/*-raw*
+assets/images/voices/*-alt*
+assets/images/voices/*-lf*
+assets/images/voices/*-wiki*
+assets/images/voices/*-mod-*
+assets/images/voices/*-page-*
+assets/images/voices/*-full*
+assets/images/voices/final/
+.DS_Store
