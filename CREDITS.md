@@ -7,7 +7,7 @@ All stills on this site come from existing public sources or repmusic’s own pe
 | File | Source | Licence (as stated on Commons) |
 |------|--------|--------------------------------|
 | `chet-1955.jpg` | [Chet Baker (1955 portrait)](https://commons.wikimedia.org/wiki/File:Chet_Baker_(1955_portrait).jpg) | Public domain (U.S., not renewed) |
-| `chet-belgium-1983.jpg` | [Chet Baker (1929–1988)](https://commons.wikimedia.org/wiki/File:Chet_Baker_(1929%E2%80%931988).jpg) | CC BY-SA (see Commons page) |
+| `chet-belgium-1983.jpg` | [Chet Baker (1929-1988)](https://commons.wikimedia.org/wiki/File:Chet_Baker_(1929%E2%80%931988).jpg) | CC BY-SA (see Commons page) |
 | `chet-1983-session.jpg` | [Chetbaker1983.jpeg](https://commons.wikimedia.org/wiki/File:Chetbaker1983.jpeg) | Public domain dedication (author) |
 | `chet-late.jpg` | [68.chetbaker.jpg](https://commons.wikimedia.org/wiki/File:68.chetbaker.jpg) | CC0 1.0 |
 

@@ -1,4 +1,4 @@
-# Chasing Chet — production website mockup
+# Chasing Chet - production website mockup
 
 Static one-page site for the *Chasing Chet* documentary (Robin Phillips / repmusic, 2026).
 
